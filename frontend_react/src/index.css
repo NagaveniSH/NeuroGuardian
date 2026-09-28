@@ -1,0 +1,229 @@
+:root {
+  --bg-primary: #0F172A;
+  --bg-secondary: #1E293B;
+  --glass-bg: rgba(30, 41, 59, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-glow: rgba(0, 210, 255, 0.15);
+  --accent-cyan: #00D2FF;
+  --accent-blue: #3A7BD5;
+  --accent-emerald: #10B981;
+  --accent-rose: #EF4444;
+  --accent-amber: #F59E0B;
+  --accent-purple: #8B5CF6;
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+  --control-height: 48px;
+  font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(circle at 50% 0%, #1E293B 0%, #0F172A 100%);
+  color: var(--text-main);
+  min-height: 100vh;
+  overflow-x: hidden;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 210, 255, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 210, 255, 0.6);
+}
+
+/* Glass Card Base Component */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(0, 210, 255, 0.3);
+}
+
+/* Form Controls (Inputs, Selects, Textareas) */
+.glass-input {
+  background: rgba(15, 23, 42, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  color: #FFFFFF;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: var(--control-height);
+  width: 100%;
+  outline: none;
+  font-size: 14px;
+  font-family: inherit;
+  transition: all 0.2s ease;
+  display: block;
+  box-sizing: border-box;
+}
+
+/* Dedicated Class for Inputs Containing Left Icons (Prevents Overlapping) */
+.glass-input-has-icon {
+  padding-left: 48px !important;
+}
+
+textarea.glass-input {
+  height: auto !important;
+  min-height: 100px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  line-height: 1.5 !important;
+}
+
+select.glass-input {
+  appearance: none !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2300D2FF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 16px center !important;
+  padding-right: 40px !important;
+}
+
+select.glass-input option {
+  background: #0F172A !important;
+  color: #FFFFFF !important;
+}
+
+.glass-input:focus {
+  border-color: var(--accent-cyan) !important;
+  box-shadow: 0 0 16px rgba(0, 210, 255, 0.3) !important;
+}
+
+/* Primary Action Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, #00D2FF 0%, #3A7BD5 100%) !important;
+  border: none !important;
+  border-radius: 12px !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  height: var(--control-height) !important;
+  padding: 0 24px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 16px rgba(0, 210, 255, 0.35) !important;
+  transition: all 0.2s ease !important;
+  text-decoration: none !important;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 22px rgba(0, 210, 255, 0.5) !important;
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, #EF4444 0%, #991B1B 100%) !important;
+  border: none !important;
+  border-radius: 12px !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  height: var(--control-height) !important;
+  padding: 0 24px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 16px rgba(239, 68, 68, 0.35) !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-danger:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 22px rgba(239, 68, 68, 0.5) !important;
+}
+
+.btn-success {
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%) !important;
+  border: none !important;
+  border-radius: 12px !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  height: var(--control-height) !important;
+  padding: 0 24px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.35) !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-success:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 22px rgba(16, 185, 129, 0.5) !important;
+}
+
+/* Screen Layout Containers */
+.screen-container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Badge Styles */
+.status-badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Responsive Mobile Rules */
+@media (max-width: 640px) {
+  .screen-container {
+    padding: 20px 14px;
+    gap: 18px;
+  }
+  .glass-card {
+    padding: 20px 16px;
+    border-radius: 16px;
+  }
+}

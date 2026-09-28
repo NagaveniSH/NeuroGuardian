@@ -1,0 +1,270 @@
+[
+  {
+    "id": "wandering_1790621147438",
+    "patientId": "pat_alz_1790140707101",
+    "patientName": "Ram",
+    "latitude": 15.478,
+    "longitude": 75.012,
+    "distanceFromSafeZoneCenter": 1384.5,
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-29T00:15:47.438726",
+    "recipients": [
+      "8123811801",
+      "9242714899",
+      "9900987249"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "message": "🚨 NEUROGUARDIAN WANDERING ALERT:\nRam is outside the configured safe zone.\nDistance: 1384 m\nSafe radius: 500 m\nLocation: 15.4780, 75.0120\nTime: 2026-09-29 00:15:46\nMap: https://www.google.com/maps?q=15.4780,75.0120",
+        "recipient": "8123811801",
+        "mapsLink": "https://www.google.com/maps?q=15.4780,75.0120",
+        "gateway": "Capcom6 Android SMS Gateway",
+        "response": "{\"deviceId\":\"ffffffffe719120a000001a0e926742c\",\"id\":\"crDAGoBQVBSScOD-ht0tb\",\"isEncrypted\":false,\"isHashed\":false,\"recipients\":[{\"phoneNumber\":\"8123811801\",\"state\":\"Pending\"}],\"state\":\"Pending\",\"states\":{},\"textMessage\":{\"text\":\"🚨 NEUROGUARDIAN WANDERING ALERT:\\nRam is outside the configured safe zone.\\nDistance: 1384 m\\nSafe radius: 500 m\\nLocation: 15.4780, 75.0120\\nTime: 2026-09-29 00:15:46\\nMap: https://www.google.com/maps?q\\u003d15.4780,75.0120\"}}",
+        "timestamp": "2026-09-29T00:15:47.084134"
+      },
+      {
+        "status": "SENT",
+        "message": "🚨 NEUROGUARDIAN WANDERING ALERT:\nRam is outside the configured safe zone.\nDistance: 1384 m\nSafe radius: 500 m\nLocation: 15.4780, 75.0120\nTime: 2026-09-29 00:15:47\nMap: https://www.google.com/maps?q=15.4780,75.0120",
+        "recipient": "9242714899",
+        "mapsLink": "https://www.google.com/maps?q=15.4780,75.0120",
+        "gateway": "Capcom6 Android SMS Gateway",
+        "response": "{\"deviceId\":\"ffffffffe719120a000001a0e926742c\",\"id\":\"yakdDQdHZIRgafPdRC1MM\",\"isEncrypted\":false,\"isHashed\":false,\"recipients\":[{\"phoneNumber\":\"9242714899\",\"state\":\"Pending\"}],\"state\":\"Pending\",\"states\":{},\"textMessage\":{\"text\":\"🚨 NEUROGUARDIAN WANDERING ALERT:\\nRam is outside the configured safe zone.\\nDistance: 1384 m\\nSafe radius: 500 m\\nLocation: 15.4780, 75.0120\\nTime: 2026-09-29 00:15:47\\nMap: https://www.google.com/maps?q\\u003d15.4780,75.0120\"}}",
+        "timestamp": "2026-09-29T00:15:47.234933"
+      },
+      {
+        "status": "SENT",
+        "message": "🚨 NEUROGUARDIAN WANDERING ALERT:\nRam is outside the configured safe zone.\nDistance: 1384 m\nSafe radius: 500 m\nLocation: 15.4780, 75.0120\nTime: 2026-09-29 00:15:47\nMap: https://www.google.com/maps?q=15.4780,75.0120",
+        "recipient": "9900987249",
+        "mapsLink": "https://www.google.com/maps?q=15.4780,75.0120",
+        "gateway": "Capcom6 Android SMS Gateway",
+        "response": "{\"deviceId\":\"ffffffffe719120a000001a0e926742c\",\"id\":\"cZuEyqVmNKf9l4aP7dBM4\",\"isEncrypted\":false,\"isHashed\":false,\"recipients\":[{\"phoneNumber\":\"9900987249\",\"state\":\"Pending\"}],\"state\":\"Pending\",\"states\":{},\"textMessage\":{\"text\":\"🚨 NEUROGUARDIAN WANDERING ALERT:\\nRam is outside the configured safe zone.\\nDistance: 1384 m\\nSafe radius: 500 m\\nLocation: 15.4780, 75.0120\\nTime: 2026-09-29 00:15:47\\nMap: https://www.google.com/maps?q\\u003d15.4780,75.0120\"}}",
+        "timestamp": "2026-09-29T00:15:47.438611"
+      }
+    ],
+    "dispatchStatus": "SENT",
+    "alertType": "GPS_WANDERING"
+  },
+  {
+    "id": "wandering_1790616517393",
+    "patientId": "pat_alz_1790140707101",
+    "patientName": "Ram",
+    "latitude": 15.478,
+    "longitude": 75.012,
+    "distanceFromSafeZoneCenter": 1384.5,
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:58:37.393886",
+    "recipients": [
+      "8123811801",
+      "9242714899"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "message": "🚨 NEUROGUARDIAN WANDERING ALERT:\nRam is outside the configured safe zone.\nDistance: 1384 m\nSafe radius: 500 m\nLocation: 15.4780, 75.0120\nTime: 2026-09-28 22:58:27\nMap: https://www.google.com/maps?q=15.4780,75.0120",
+        "recipient": "8123811801",
+        "mapsLink": "https://www.google.com/maps?q=15.4780,75.0120",
+        "gateway": "Android SIM Gateway",
+        "response": "HTTPConnectionPool(host='192.168.29.31', port=8080): Max retries exceeded with url: /send (Caused by ConnectTimeoutError(<HTTPConnection(host='192.168.29.31', port=8080) at 0x1ba3ee2cf50>, 'Connection to 192.168.29.31 timed out. (connect timeout=5)'))",
+        "timestamp": "2026-09-28T22:58:32.383220"
+      },
+      {
+        "status": "SENT",
+        "message": "🚨 NEUROGUARDIAN WANDERING ALERT:\nRam is outside the configured safe zone.\nDistance: 1384 m\nSafe radius: 500 m\nLocation: 15.4780, 75.0120\nTime: 2026-09-28 22:58:32\nMap: https://www.google.com/maps?q=15.4780,75.0120",
+        "recipient": "9242714899",
+        "mapsLink": "https://www.google.com/maps?q=15.4780,75.0120",
+        "gateway": "Android SIM Gateway",
+        "response": "HTTPConnectionPool(host='192.168.29.31', port=8080): Max retries exceeded with url: /send (Caused by ConnectTimeoutError(<HTTPConnection(host='192.168.29.31', port=8080) at 0x1ba3ee21f30>, 'Connection to 192.168.29.31 timed out. (connect timeout=5)'))",
+        "timestamp": "2026-09-28T22:58:37.393866"
+      }
+    ],
+    "dispatchStatus": "SENT",
+    "alertType": "GPS_WANDERING"
+  },
+  {
+    "id": "wandering_1790616163815",
+    "patientId": "pat_alz_1790140707101",
+    "patientName": "Ram",
+    "latitude": 15.478,
+    "longitude": 75.012,
+    "distanceFromSafeZoneCenter": 1384.5,
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:52:43.815485",
+    "recipients": [
+      "9242714899",
+      "8123811801"
+    ],
+    "dispatches": [
+      {
+        "status": "FAILED",
+        "recipient": "9242714899",
+        "error": "Gateway connection timeout",
+        "timestamp": "2026-09-28T22:52:43.815462"
+      },
+      {
+        "status": "FAILED",
+        "recipient": "8123811801",
+        "error": "Gateway connection timeout",
+        "timestamp": "2026-09-28T22:52:43.815480"
+      }
+    ],
+    "dispatchStatus": "PARTIAL_FAILURE",
+    "alertType": "GPS_WANDERING"
+  },
+  {
+    "id": "wandering_1790616163799",
+    "patientId": "pat_alz_1790140707101",
+    "patientName": "Ram",
+    "latitude": 15.48,
+    "longitude": 75.015,
+    "distanceFromSafeZoneCenter": 1600.0,
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:52:43.799008",
+    "recipients": [
+      "9242714899",
+      "8123811801"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "recipient": "8123811801"
+      },
+      {
+        "status": "SENT",
+        "recipient": "8123811801"
+      }
+    ],
+    "dispatchStatus": "SENT",
+    "alertType": "GPS_WANDERING"
+  },
+  {
+    "id": "wandering_1790616163780",
+    "patientId": "pat_alz_1790140707101",
+    "patientName": "Ram",
+    "latitude": 15.478,
+    "longitude": 75.012,
+    "distanceFromSafeZoneCenter": 1384.5,
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:52:43.780763",
+    "recipients": [
+      "9242714899",
+      "8123811801"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "recipient": "8123811801"
+      },
+      {
+        "status": "SENT",
+        "recipient": "8123811801"
+      }
+    ],
+    "dispatchStatus": "SENT",
+    "alertType": "GPS_WANDERING"
+  },
+  {
+    "id": "wandering_1790616163765",
+    "patientId": "pat_alz_1790140707101",
+    "patientName": "Ram",
+    "latitude": 15.479,
+    "longitude": 75.013,
+    "distanceFromSafeZoneCenter": 1450.0,
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:52:43.765401",
+    "recipients": [
+      "9242714899",
+      "8123811801"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "recipient": "8123811801"
+      },
+      {
+        "status": "SENT",
+        "recipient": "8123811801"
+      }
+    ],
+    "dispatchStatus": "SENT",
+    "alertType": "GPS_WANDERING"
+  },
+  {
+    "id": "wandering_1790616163753",
+    "patientId": "pat_alz_1790140707101",
+    "patientName": "Ram",
+    "latitude": 15.478,
+    "longitude": 75.012,
+    "distanceFromSafeZoneCenter": 1384.5,
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:52:43.753688",
+    "recipients": [
+      "9242714899",
+      "8123811801"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "recipient": "8123811801"
+      },
+      {
+        "status": "SENT",
+        "recipient": "8123811801"
+      }
+    ],
+    "dispatchStatus": "SENT",
+    "alertType": "GPS_WANDERING"
+  },
+  {
+    "id": "wandering_1790616163736",
+    "patientId": "pat_alz_1790140707101",
+    "patientName": "Ram",
+    "latitude": 15.478,
+    "longitude": 75.012,
+    "distanceFromSafeZoneCenter": 1384.5,
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:52:43.736531",
+    "recipients": [
+      "9242714899",
+      "8123811801"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "recipient": "8123811801"
+      },
+      {
+        "status": "SENT",
+        "recipient": "8123811801"
+      }
+    ],
+    "dispatchStatus": "SENT",
+    "alertType": "GPS_WANDERING"
+  },
+  {
+    "id": "wandering_1790616163734",
+    "patientId": "pat_alz_1790140707101",
+    "patientName": "Ram",
+    "latitude": 15.478,
+    "longitude": 75.012,
+    "distanceFromSafeZoneCenter": 1384.5,
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:52:43.734844",
+    "recipients": [
+      "9242714899",
+      "8123811801"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "recipient": "8123811801"
+      },
+      {
+        "status": "SENT",
+        "recipient": "8123811801"
+      }
+    ],
+    "dispatchStatus": "SENT",
+    "alertType": "GPS_WANDERING"
+  }
+]

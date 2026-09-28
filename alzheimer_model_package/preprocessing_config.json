@@ -1,0 +1,26 @@
+{
+  "target_size": [224, 224],
+  "channels": 3,
+  "color_mode": "RGB",
+  "interpolation": "bilinear",
+  "grayscale_to_rgb": "3-channel duplication",
+  "normalization": {
+    "type": "ImageNet",
+    "mean": [0.485, 0.456, 0.406],
+    "std": [0.229, 0.224, 0.225],
+    "input_range": "[0, 1] scaled float tensor"
+  },
+  "supported_extensions": [
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".bmp",
+    ".tif",
+    ".tiff"
+  ],
+  "error_handling": {
+    "corrupt_image": "graceful_exception",
+    "invalid_extension": "graceful_exception",
+    "file_not_found": "graceful_exception"
+  }
+}

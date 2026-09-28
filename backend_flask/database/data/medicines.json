@@ -1,0 +1,22 @@
+[
+  {
+    "id": "med_1784547306156",
+    "patientId": "pat_alz_1784543343743",
+    "medicineName": "Dolo",
+    "dosage": "1 Tablet",
+    "frequency": "Twice Daily",
+    "reminderTimes": [
+      "08:00 AM",
+      "08:00 PM"
+    ],
+    "timeOfDay": "08:00 AM",
+    "mealTiming": "After Food",
+    "startDate": "2026-07-21",
+    "endDate": "2026-07-22",
+    "notes": "take it with full glass of water",
+    "instructions": "take it with full glass of water",
+    "isCompletedToday": false,
+    "completedTimes": [],
+    "createdAt": "2026-07-20T17:05:06.156797"
+  }
+]

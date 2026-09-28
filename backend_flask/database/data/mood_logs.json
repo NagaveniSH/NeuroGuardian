@@ -1,0 +1,152 @@
+[
+  {
+    "id": "mood_1784809071020",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Neutral",
+    "confidenceScore": "88.5%",
+    "inputText": "Highly energetic.",
+    "suggestion": "Patient emotional tone is balanced. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Continue regular daily caregiving routine.",
+    "timestamp": "2026-07-23T17:47:51.020497"
+  },
+  {
+    "id": "mood_1784809067690",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Neutral",
+    "confidenceScore": "88.5%",
+    "inputText": "Highly energetic.",
+    "suggestion": "Patient emotional tone is balanced. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Continue regular daily caregiving routine.",
+    "timestamp": "2026-07-23T17:47:47.690461"
+  },
+  {
+    "id": "mood_1784617823863",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Neutral",
+    "confidenceScore": "88.5%",
+    "inputText": "I am not feeling well.",
+    "suggestion": "Patient emotional tone is balanced. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Continue regular daily caregiving routine.",
+    "timestamp": "2026-07-21T12:40:23.863546"
+  },
+  {
+    "id": "mood_1784617811261",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Neutral",
+    "confidenceScore": "88.5%",
+    "inputText": "I am not feeling well.",
+    "suggestion": "Patient emotional tone is balanced. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Continue regular daily caregiving routine.",
+    "timestamp": "2026-07-21T12:40:11.261711"
+  },
+  {
+    "id": "mood_1784617788030",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Distress",
+    "confidenceScore": "94.2%",
+    "inputText": "feeling not well",
+    "suggestion": "Patient expresses physical or mental discomfort. Perform immediate comfort check for hydration, pain, or temperature. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Check vital signs and contact primary physician if distress persists.",
+    "timestamp": "2026-07-21T12:39:48.030820"
+  },
+  {
+    "id": "mood_1784608799817",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Neutral",
+    "confidenceScore": "88.5%",
+    "inputText": "I don't want to eat anything.",
+    "suggestion": "Patient emotional tone is balanced. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Continue regular daily caregiving routine.",
+    "timestamp": "2026-07-21T10:09:59.817433"
+  },
+  {
+    "id": "mood_1784608785081",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Confusion",
+    "confidenceScore": "92.8%",
+    "inputText": "I can't remember where I kept my things",
+    "suggestion": "Patient is experiencing orientation difficulty typical of Very Mild Cognitive Decline. Speak in short, reassuring sentences. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Show familiar family photos or visual memory orientation cues.",
+    "timestamp": "2026-07-21T10:09:45.081407"
+  },
+  {
+    "id": "mood_1784608770041",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Confusion",
+    "confidenceScore": "92.8%",
+    "inputText": "I feel scared and confused.",
+    "suggestion": "Patient is experiencing orientation difficulty typical of Very Mild Cognitive Decline. Speak in short, reassuring sentences. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Show familiar family photos or visual memory orientation cues.",
+    "timestamp": "2026-07-21T10:09:30.041057"
+  },
+  {
+    "id": "mood_1784608736512",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Neutral",
+    "confidenceScore": "88.5%",
+    "inputText": "I don't want anyone to disturb me",
+    "suggestion": "Patient emotional tone is balanced. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Continue regular daily caregiving routine.",
+    "timestamp": "2026-07-21T10:08:56.512867"
+  },
+  {
+    "id": "mood_1784608726564",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Calm",
+    "confidenceScore": "92.0%",
+    "inputText": "I feel calm and positive.",
+    "suggestion": "Patient is in a positive emotional state. Excellent window for cognitive stimulation games. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Engage in simple puzzle activities or storytelling.",
+    "timestamp": "2026-07-21T10:08:46.564727"
+  },
+  {
+    "id": "mood_1784608712477",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Sadness",
+    "confidenceScore": "91.0%",
+    "inputText": "I feel lonely today.",
+    "suggestion": "Offer emotional warmth, hold hands gently, or play acoustic music from their youth. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Engage in a calm memory recall conversation about positive family events.",
+    "timestamp": "2026-07-21T10:08:32.477880"
+  },
+  {
+    "id": "mood_1784608329266",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Distress",
+    "confidenceScore": "94.2%",
+    "inputText": "feeling not well",
+    "suggestion": "Patient expresses physical or mental discomfort. Perform immediate comfort check for hydration, pain, or temperature. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Check vital signs and contact primary physician if distress persists.",
+    "timestamp": "2026-07-21T10:02:09.266640"
+  },
+  {
+    "id": "mood_1784608266414",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Calm",
+    "confidenceScore": "92.0%",
+    "inputText": "The patient displayed increased irritability in the late afternoon, consistent with possible sundowning behavior. Mood improved after a calm, structured activity and reassurance from familiar caregivers",
+    "suggestion": "Patient is in a positive emotional state. Excellent window for cognitive stimulation games. Verify active medication compliance (Dolo).",
+    "recommendedAction": "Engage in simple puzzle activities or storytelling.",
+    "timestamp": "2026-07-21T10:01:06.414833"
+  },
+  {
+    "id": "mood_1784543923689",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Happiness",
+    "confidenceScore": "96.1%",
+    "inputText": "I'm happy",
+    "suggestion": "Patient is in a positive emotional state. Excellent window for cognitive stimulation games.",
+    "recommendedAction": "Engage in simple puzzle activities or storytelling.",
+    "timestamp": "2026-07-20T16:08:43.689388"
+  },
+  {
+    "id": "mood_1784543873367",
+    "patientId": "pat_alz_1784543343743",
+    "detectedMood": "Neutral",
+    "confidenceScore": "88.5%",
+    "inputText": "I am not feeling well.",
+    "suggestion": "Patient emotional tone is balanced.",
+    "recommendedAction": "Continue regular daily caregiving routine.",
+    "timestamp": "2026-07-20T16:07:53.367223"
+  }
+]

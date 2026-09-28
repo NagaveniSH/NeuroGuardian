@@ -1,0 +1,26 @@
+{
+  "classes": [
+    "MildDemented",
+    "ModerateDemented",
+    "NonDemented",
+    "VeryMildDemented"
+  ],
+  "class_to_idx": {
+    "MildDemented": 0,
+    "ModerateDemented": 1,
+    "NonDemented": 2,
+    "VeryMildDemented": 3
+  },
+  "idx_to_class": {
+    "0": "MildDemented",
+    "1": "ModerateDemented",
+    "2": "NonDemented",
+    "3": "VeryMildDemented"
+  },
+  "class_descriptions": {
+    "NonDemented": "Cognitively normal control with no clinical signs of dementia",
+    "VeryMildDemented": "Earliest detectable cognitive impairment (Mild Cognitive Impairment equivalent)",
+    "MildDemented": "Mild clinical Alzheimer's disease with moderate memory impairment",
+    "ModerateDemented": "Advanced clinical Alzheimer's disease with pronounced neurodegeneration"
+  }
+}

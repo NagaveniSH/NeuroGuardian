@@ -1,0 +1,113 @@
+{
+  "collections": [
+    {
+      "name": "users",
+      "fields": {
+        "uid": "String (Primary Key)",
+        "email": "String",
+        "displayName": "String",
+        "role": "String (caregiver | patient | doctor)",
+        "phoneNumber": "String",
+        "createdAt": "Timestamp"
+      }
+    },
+    {
+      "name": "patients",
+      "fields": {
+        "id": "String (Primary Key)",
+        "name": "String",
+        "age": "Number",
+        "gender": "String",
+        "address": "String",
+        "caregiverId": "String",
+        "caregiverName": "String",
+        "emergencyContact": "String",
+        "alzheimerStage": "String",
+        "medicalNotes": "String",
+        "photoUrl": "String",
+        "createdAt": "Timestamp"
+      }
+    },
+    {
+      "name": "medicines",
+      "fields": {
+        "id": "String (Primary Key)",
+        "patientId": "String",
+        "medicineName": "String",
+        "dosage": "String",
+        "timing": "String (Morning | Afternoon | Night)",
+        "timeOfDay": "String (e.g. 08:00 AM)",
+        "instructions": "String",
+        "isCompletedToday": "Boolean",
+        "createdAt": "Timestamp"
+      }
+    },
+    {
+      "name": "reminders",
+      "fields": {
+        "id": "String (Primary Key)",
+        "patientId": "String",
+        "medicineId": "String",
+        "scheduledTime": "String",
+        "status": "String (pending | completed | missed)"
+      }
+    },
+    {
+      "name": "mood_logs",
+      "fields": {
+        "id": "String (Primary Key)",
+        "patientId": "String",
+        "detectedMood": "String (Happy | Sad | Angry | Confused | Anxious)",
+        "inputText": "String",
+        "suggestion": "String",
+        "timestamp": "Timestamp"
+      }
+    },
+    {
+      "name": "scan_reports",
+      "fields": {
+        "id": "String (Primary Key)",
+        "patientId": "String",
+        "imageUrl": "String",
+        "alzheimerRisk": "String (e.g. 78.5%)",
+        "stage": "String",
+        "aiConfidence": "String",
+        "notes": "String",
+        "timestamp": "Timestamp"
+      }
+    },
+    {
+      "name": "tracking_logs",
+      "fields": {
+        "id": "String (Primary Key)",
+        "patientId": "String",
+        "latitude": "Number",
+        "longitude": "Number",
+        "address": "String",
+        "isInSafeZone": "Boolean",
+        "timestamp": "Timestamp"
+      }
+    },
+    {
+      "name": "emergency_logs",
+      "fields": {
+        "id": "String (Primary Key)",
+        "patientId": "String",
+        "triggeredBy": "String",
+        "latitude": "Number",
+        "longitude": "Number",
+        "status": "String (ACTIVE | RESOLVED)",
+        "timestamp": "Timestamp"
+      }
+    },
+    {
+      "name": "qr_ids",
+      "fields": {
+        "id": "String (Primary Key)",
+        "patientId": "String",
+        "qrData": "String (JSON payload)",
+        "generatedAt": "Timestamp"
+      }
+    }
+  ]
+}

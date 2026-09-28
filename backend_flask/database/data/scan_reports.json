@@ -1,0 +1,306 @@
+[
+  {
+    "id": "scan_1790585149305",
+    "patientId": "pat_alz_1790140707101",
+    "fileName": "F0010592-Brain_with_Alzheimer_s_disease,_CT_scan.jpg",
+    "predictedClass": "NonDemented",
+    "alzheimerRisk": "69.3%",
+    "stage": "NonDemented (Cognitively normal control with no clinical signs of dementia)",
+    "aiConfidence": "30.7%",
+    "probabilityDistribution": {
+      "MildDemented": "14.6%",
+      "ModerateDemented": "27.3%",
+      "NonDemented": "30.7%",
+      "VeryMildDemented": "27.5%"
+    },
+    "heatmapRegion": "Not evaluated (2D slice classification model does not generate localization heatmaps)",
+    "recommendation": "Not evaluated (Clinical recommendations must be provided by a licensed physician)",
+    "disclaimer": "Research and educational prototype only. Not intended for clinical diagnostic use. Consult a licensed neurologist.",
+    "timestamp": "2026-09-28T14:15:49.305138"
+  },
+  {
+    "id": "scan_1790579221804",
+    "patientId": "pat_alz_1790140707101",
+    "fileName": "F0461046-Normal_brain,_CT_scan.jpg",
+    "predictedClass": "NonDemented",
+    "alzheimerRisk": "69.4%",
+    "stage": "NonDemented (Cognitively normal control with no clinical signs of dementia)",
+    "aiConfidence": "30.6%",
+    "probabilityDistribution": {
+      "MildDemented": "25.8%",
+      "ModerateDemented": "24.6%",
+      "NonDemented": "30.6%",
+      "VeryMildDemented": "19.0%"
+    },
+    "heatmapRegion": "Not evaluated (2D slice classification model does not generate localization heatmaps)",
+    "recommendation": "Not evaluated (Clinical recommendations must be provided by a licensed physician)",
+    "disclaimer": "Research and educational prototype only. Not intended for clinical diagnostic use. Consult a licensed neurologist.",
+    "timestamp": "2026-09-28T12:37:01.804931"
+  },
+  {
+    "id": "scan_1790579124658",
+    "patientId": "pat_alz_1790140707101",
+    "fileName": "vite_proxy_test.png",
+    "predictedClass": "VeryMildDemented",
+    "alzheimerRisk": "96.0%",
+    "stage": "VeryMildDemented (Earliest detectable cognitive impairment (Mild Cognitive Impairment equivalent))",
+    "aiConfidence": "91.0%",
+    "probabilityDistribution": {
+      "MildDemented": "1.8%",
+      "ModerateDemented": "3.2%",
+      "NonDemented": "4.0%",
+      "VeryMildDemented": "91.0%"
+    },
+    "heatmapRegion": "Not evaluated (2D slice classification model does not generate localization heatmaps)",
+    "recommendation": "Not evaluated (Clinical recommendations must be provided by a licensed physician)",
+    "disclaimer": "Research and educational prototype only. Not intended for clinical diagnostic use. Consult a licensed neurologist.",
+    "timestamp": "2026-09-28T12:35:24.658619"
+  },
+  {
+    "id": "scan_1790579086761",
+    "patientId": "pat_alz_1790140707101",
+    "fileName": "gradient_scan.png",
+    "predictedClass": "MildDemented",
+    "alzheimerRisk": "100.0%",
+    "stage": "MildDemented (Mild clinical Alzheimer's disease with moderate memory impairment)",
+    "aiConfidence": "100.0%",
+    "probabilityDistribution": {
+      "MildDemented": "100.0%",
+      "ModerateDemented": "0.0%",
+      "NonDemented": "0.0%",
+      "VeryMildDemented": "0.0%"
+    },
+    "heatmapRegion": "Not evaluated (2D slice classification model does not generate localization heatmaps)",
+    "recommendation": "Not evaluated (Clinical recommendations must be provided by a licensed physician)",
+    "disclaimer": "Research and educational prototype only. Not intended for clinical diagnostic use. Consult a licensed neurologist.",
+    "timestamp": "2026-09-28T12:34:46.761132"
+  },
+  {
+    "id": "scan_1790579086570",
+    "patientId": "pat_alz_1790140707101",
+    "fileName": "medium_gray_scan.png",
+    "predictedClass": "VeryMildDemented",
+    "alzheimerRisk": "92.4%",
+    "stage": "VeryMildDemented (Earliest detectable cognitive impairment (Mild Cognitive Impairment equivalent))",
+    "aiConfidence": "80.4%",
+    "probabilityDistribution": {
+      "MildDemented": "4.5%",
+      "ModerateDemented": "7.5%",
+      "NonDemented": "7.6%",
+      "VeryMildDemented": "80.4%"
+    },
+    "heatmapRegion": "Not evaluated (2D slice classification model does not generate localization heatmaps)",
+    "recommendation": "Not evaluated (Clinical recommendations must be provided by a licensed physician)",
+    "disclaimer": "Research and educational prototype only. Not intended for clinical diagnostic use. Consult a licensed neurologist.",
+    "timestamp": "2026-09-28T12:34:46.570207"
+  },
+  {
+    "id": "scan_1790579086448",
+    "patientId": "pat_alz_1790140707101",
+    "fileName": "dark_scan.png",
+    "predictedClass": "VeryMildDemented",
+    "alzheimerRisk": "96.1%",
+    "stage": "VeryMildDemented (Earliest detectable cognitive impairment (Mild Cognitive Impairment equivalent))",
+    "aiConfidence": "86.6%",
+    "probabilityDistribution": {
+      "MildDemented": "3.0%",
+      "ModerateDemented": "6.5%",
+      "NonDemented": "3.9%",
+      "VeryMildDemented": "86.6%"
+    },
+    "heatmapRegion": "Not evaluated (2D slice classification model does not generate localization heatmaps)",
+    "recommendation": "Not evaluated (Clinical recommendations must be provided by a licensed physician)",
+    "disclaimer": "Research and educational prototype only. Not intended for clinical diagnostic use. Consult a licensed neurologist.",
+    "timestamp": "2026-09-28T12:34:46.448996"
+  },
+  {
+    "id": "scan_1790578529812",
+    "patientId": "pat_alz_1790140707101",
+    "fileName": "F0461046-Normal_brain,_CT_scan.jpg",
+    "predictedClass": "NonDemented",
+    "alzheimerRisk": "69.4%",
+    "stage": "Normal Cognition / No Dementia Detected",
+    "aiConfidence": "30.6%",
+    "probabilityDistribution": {
+      "MildDemented": "25.8%",
+      "ModerateDemented": "24.6%",
+      "NonDemented": "30.6%",
+      "VeryMildDemented": "19.0%"
+    },
+    "heatmapRegion": "Preserved Cortical Parenchyma & Normal Ventricular Volume",
+    "recommendation": "No signs of Alzheimer's atrophy detected. Maintain healthy lifestyle and annual routine checkups.",
+    "disclaimer": "AI-assisted neural classification derived from structural brain scan analysis. Research and educational prototype only. Consult a neurologist for clinical diagnosis.",
+    "timestamp": "2026-09-28T12:25:29.812807"
+  },
+  {
+    "id": "scan_1790578440009",
+    "patientId": "pat_alz_1790140707101",
+    "fileName": "gradient_scan.png",
+    "predictedClass": "MildDemented",
+    "alzheimerRisk": "99.5%",
+    "stage": "Mild Alzheimer's Disease (Moderate Cognitive Impairment)",
+    "aiConfidence": "100.0%",
+    "probabilityDistribution": {
+      "MildDemented": "100.0%",
+      "ModerateDemented": "0.0%",
+      "NonDemented": "0.0%",
+      "VeryMildDemented": "0.0%"
+    },
+    "heatmapRegion": "Bilateral Hippocampal Volume Loss & Ventricular Expansion",
+    "recommendation": "Consult neurologist for confirmation. Establish structured caregiver routines, medication adherence, and geofence tracking.",
+    "disclaimer": "AI-assisted neural classification derived from structural brain scan analysis. Research and educational prototype only. Consult a neurologist for clinical diagnosis.",
+    "timestamp": "2026-09-28T12:24:00.009437"
+  },
+  {
+    "id": "scan_1790578439820",
+    "patientId": "pat_alz_1790140707101",
+    "fileName": "medium_gray_scan.png",
+    "predictedClass": "VeryMildDemented",
+    "alzheimerRisk": "92.4%",
+    "stage": "Very Mild Cognitive Decline (Early MCI Equivalent)",
+    "aiConfidence": "80.4%",
+    "probabilityDistribution": {
+      "MildDemented": "4.5%",
+      "ModerateDemented": "7.5%",
+      "NonDemented": "7.6%",
+      "VeryMildDemented": "80.4%"
+    },
+    "heatmapRegion": "Minimal Entorhinal Cortex & Medial Temporal Lobe Atrophy",
+    "recommendation": "Begin proactive cognitive memory exercises, maintain strict sleep hygiene, and monitor neurological progression annually.",
+    "disclaimer": "AI-assisted neural classification derived from structural brain scan analysis. Research and educational prototype only. Consult a neurologist for clinical diagnosis.",
+    "timestamp": "2026-09-28T12:23:59.820872"
+  },
+  {
+    "id": "scan_1790578439621",
+    "patientId": "pat_alz_1790140707101",
+    "fileName": "dark_scan.png",
+    "predictedClass": "VeryMildDemented",
+    "alzheimerRisk": "96.1%",
+    "stage": "Very Mild Cognitive Decline (Early MCI Equivalent)",
+    "aiConfidence": "86.6%",
+    "probabilityDistribution": {
+      "MildDemented": "3.0%",
+      "ModerateDemented": "6.5%",
+      "NonDemented": "3.9%",
+      "VeryMildDemented": "86.6%"
+    },
+    "heatmapRegion": "Minimal Entorhinal Cortex & Medial Temporal Lobe Atrophy",
+    "recommendation": "Begin proactive cognitive memory exercises, maintain strict sleep hygiene, and monitor neurological progression annually.",
+    "disclaimer": "AI-assisted neural classification derived from structural brain scan analysis. Research and educational prototype only. Consult a neurologist for clinical diagnosis.",
+    "timestamp": "2026-09-28T12:23:59.621562"
+  },
+  {
+    "id": "scan_1790577364603",
+    "patientId": "pat_alz_1790140707101",
+    "fileName": "axial_brain_mri_test.png",
+    "predictedClass": "VeryMildDemented",
+    "alzheimerRisk": "94.8%",
+    "stage": "Very Mild Cognitive Decline (Early MCI Equivalent)",
+    "aiConfidence": "86.5%",
+    "probabilityDistribution": {
+      "MildDemented": "3.8%",
+      "ModerateDemented": "4.5%",
+      "NonDemented": "5.2%",
+      "VeryMildDemented": "86.5%"
+    },
+    "heatmapRegion": "Minimal Entorhinal Cortex & Medial Temporal Lobe Atrophy",
+    "recommendation": "Begin proactive cognitive memory exercises, maintain strict sleep hygiene, and monitor neurological progression annually.",
+    "disclaimer": "AI-assisted neural classification derived from structural brain scan analysis. Research and educational prototype only. Consult a neurologist for clinical diagnosis.",
+    "timestamp": "2026-09-28T12:06:04.603468"
+  },
+  {
+    "id": "scan_1790141274680",
+    "patientId": "pat_alz_1790140707101",
+    "fileName": "C0370726-Brain_haemorrhage,_axial_CT_scan.jpg",
+    "predictedClass": "Mild Alzheimer's",
+    "alzheimerRisk": "55.5%",
+    "stage": "Mild Alzheimer's Disease (Stage 3/4)",
+    "aiConfidence": "98.4%",
+    "probabilityDistribution": {
+      "Normal": "2.5%",
+      "Very Mild": "15.6%",
+      "Mild": "41.6%",
+      "Moderate": "11.1%"
+    },
+    "heatmapRegion": "Bilateral Hippocampal Atrophy & Ventricular Expansion",
+    "recommendation": "Structured caregiver routines, daily medicine schedules, and geofence safe zone monitoring.",
+    "disclaimer": "AI neural prediction derived from CT scan pixel matrix. Consult neurologist for clinical confirmation.",
+    "timestamp": "2026-09-23T10:57:54.680643"
+  },
+  {
+    "id": "scan_1784560728254",
+    "patientId": "pat_alz_1784543343743",
+    "fileName": "C0370726-Brain_haemorrhage,_axial_CT_scan.jpg",
+    "predictedClass": "Mild Alzheimer's",
+    "alzheimerRisk": "55.5%",
+    "stage": "Mild Alzheimer's Disease (Stage 3/4)",
+    "aiConfidence": "98.4%",
+    "probabilityDistribution": {
+      "Normal": "2.5%",
+      "Very Mild": "15.6%",
+      "Mild": "41.6%",
+      "Moderate": "11.1%"
+    },
+    "heatmapRegion": "Bilateral Hippocampal Atrophy & Ventricular Expansion",
+    "recommendation": "Structured caregiver routines, daily medicine schedules, and geofence safe zone monitoring.",
+    "disclaimer": "AI neural prediction derived from CT scan pixel matrix. Consult neurologist for clinical confirmation.",
+    "timestamp": "2026-07-20T20:48:48.254565"
+  },
+  {
+    "id": "scan_1784547106701",
+    "patientId": "pat_alz_1784543343743",
+    "fileName": "F0461046-Normal_brain,_CT_scan.jpg",
+    "predictedClass": "Moderate Alzheimer's",
+    "alzheimerRisk": "77.0%",
+    "stage": "Moderate Alzheimer's Disease (Stage 5/6)",
+    "aiConfidence": "91.8%",
+    "probabilityDistribution": {
+      "Normal": "1.0%",
+      "Very Mild": "3.5%",
+      "Mild": "14.4%",
+      "Moderate": "65.5%"
+    },
+    "heatmapRegion": "Widespread Cortical Atrophy & Severe Ventricular Expansion",
+    "recommendation": "Full-time caregiver assistance, sensory calming environment, and immediate specialist evaluation.",
+    "disclaimer": "AI neural prediction derived from CT scan pixel matrix. Consult neurologist for clinical confirmation.",
+    "timestamp": "2026-07-20T17:01:46.701903"
+  },
+  {
+    "id": "scan_1784546905276",
+    "patientId": "pat_alz_1784543343743",
+    "fileName": "F0461046-Normal_brain,_CT_scan.jpg",
+    "predictedClass": "Moderate Alzheimer's",
+    "alzheimerRisk": "77.0%",
+    "stage": "Moderate Alzheimer's Disease (Stage 5/6)",
+    "aiConfidence": "91.8%",
+    "probabilityDistribution": {
+      "Normal": "1.0%",
+      "Very Mild": "3.5%",
+      "Mild": "14.4%",
+      "Moderate": "65.5%"
+    },
+    "heatmapRegion": "Widespread Cortical Atrophy & Severe Ventricular Expansion",
+    "recommendation": "Full-time caregiver assistance, sensory calming environment, and immediate specialist evaluation.",
+    "disclaimer": "AI neural prediction derived from CT scan pixel matrix. Consult neurologist for clinical confirmation.",
+    "timestamp": "2026-07-20T16:58:25.276382"
+  },
+  {
+    "id": "scan_1784543833044",
+    "patientId": "pat_alz_1784543343743",
+    "fileName": "F0461046-Normal_brain,_CT_scan.jpg",
+    "predictedClass": "Mild Alzheimer's",
+    "alzheimerRisk": "60.6%",
+    "stage": "Mild Alzheimer's Disease (Stage 3/4)",
+    "aiConfidence": "94.3%",
+    "probabilityDistribution": {
+      "Normal": "3.1%",
+      "Very Mild": "15.7%",
+      "Mild": "45.5%",
+      "Moderate": "12.1%"
+    },
+    "heatmapRegion": "Bilateral Hippocampal Volume Loss & Moderate Ventricular Enlargement",
+    "recommendation": "Structured caregiver routines, daily medication schedules, and safe zone geofencing.",
+    "disclaimer": "AI neural prediction derived from CT scan pixel matrix. Consult neurologist for clinical confirmation.",
+    "timestamp": "2026-07-20T16:07:13.044483"
+  }
+]

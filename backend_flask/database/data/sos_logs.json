@@ -1,0 +1,198 @@
+[
+  {
+    "id": "sos_1790616199615",
+    "patientId": "pat_alz_1790140707101",
+    "triggeredBy": "Test Caregiver",
+    "latitude": 15.4683,
+    "longitude": 75.0039,
+    "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+    "recipients": [
+      "8123811801",
+      "9242714899"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "message": "🚨 EMERGENCY SOS ALERT: Ram requires immediate assistance!\n⏰ Time: 2026-09-28 22:53:09\n📍 GPS Coords: 15.4683, 75.0039\n🗺️ Live Location: https://www.google.com/maps?q=15.4683,75.0039",
+        "recipient": "8123811801",
+        "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+        "gateway": "Android SIM Gateway",
+        "response": "HTTPConnectionPool(host='192.168.29.31', port=8080): Max retries exceeded with url: /send (Caused by ConnectTimeoutError(<HTTPConnection(host='192.168.29.31', port=8080) at 0x1ba3edb17f0>, 'Connection to 192.168.29.31 timed out. (connect timeout=5)'))",
+        "timestamp": "2026-09-28T22:53:14.601068"
+      },
+      {
+        "status": "SENT",
+        "message": "🚨 EMERGENCY SOS ALERT: Ram requires immediate assistance!\n⏰ Time: 2026-09-28 22:53:14\n📍 GPS Coords: 15.4683, 75.0039\n🗺️ Live Location: https://www.google.com/maps?q=15.4683,75.0039",
+        "recipient": "9242714899",
+        "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+        "gateway": "Android SIM Gateway",
+        "response": "HTTPConnectionPool(host='192.168.29.31', port=8080): Max retries exceeded with url: /send (Caused by ConnectTimeoutError(<HTTPConnection(host='192.168.29.31', port=8080) at 0x1ba3ee2c690>, 'Connection to 192.168.29.31 timed out. (connect timeout=5)'))",
+        "timestamp": "2026-09-28T22:53:19.615699"
+      }
+    ],
+    "status": "SENT",
+    "timestamp": "2026-09-28T22:53:19.615737"
+  },
+  {
+    "id": "sos_1784617971980",
+    "patientId": "pat_alz_1784543343743",
+    "triggeredBy": "Alex",
+    "latitude": 15.4683,
+    "longitude": 75.0039,
+    "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+    "recipients": [
+      "8095189197"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "message": "🚨 EMERGENCY SOS ALERT: john requires immediate assistance!\n⏰ Time: 2026-07-21 12:42:46\n📍 GPS Coords: 15.4683, 75.0039\n🗺️ Live Location: https://www.google.com/maps?q=15.4683,75.0039",
+        "recipient": "8095189197",
+        "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+        "gateway": "Android SIM Gateway",
+        "response": "HTTPConnectionPool(host='192.168.29.31', port=8080): Max retries exceeded with url: /send (Caused by ConnectTimeoutError(<HTTPConnection(host='192.168.29.31', port=8080) at 0x19cf4e38050>, 'Connection to 192.168.29.31 timed out. (connect timeout=5)'))",
+        "timestamp": "2026-07-21T12:42:51.980074"
+      }
+    ],
+    "status": "SENT",
+    "timestamp": "2026-07-21T12:42:51.980117"
+  },
+  {
+    "id": "sos_1784617937248",
+    "patientId": "pat_alz_1784543343743",
+    "triggeredBy": "Alex",
+    "latitude": 15.4683,
+    "longitude": 75.0039,
+    "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+    "recipients": [
+      "8095189197"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "message": "🚨 EMERGENCY SOS ALERT: john requires immediate assistance!\n⏰ Time: 2026-07-21 12:42:12\n📍 GPS Coords: 15.4683, 75.0039\n🗺️ Live Location: https://www.google.com/maps?q=15.4683,75.0039",
+        "recipient": "8095189197",
+        "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+        "gateway": "Android SIM Gateway",
+        "response": "HTTPConnectionPool(host='192.168.29.31', port=8080): Max retries exceeded with url: /send (Caused by ConnectTimeoutError(<HTTPConnection(host='192.168.29.31', port=8080) at 0x19cf4de7610>, 'Connection to 192.168.29.31 timed out. (connect timeout=5)'))",
+        "timestamp": "2026-07-21T12:42:17.248449"
+      }
+    ],
+    "status": "SENT",
+    "timestamp": "2026-07-21T12:42:17.248498"
+  },
+  {
+    "id": "sos_1784617915128",
+    "patientId": "pat_alz_1784543343743",
+    "triggeredBy": "Alex",
+    "latitude": 15.4683,
+    "longitude": 75.0039,
+    "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+    "recipients": [
+      "8095189197"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "message": "🚨 EMERGENCY SOS ALERT: john requires immediate assistance!\n⏰ Time: 2026-07-21 12:41:50\n📍 GPS Coords: 15.4683, 75.0039\n🗺️ Live Location: https://www.google.com/maps?q=15.4683,75.0039",
+        "recipient": "8095189197",
+        "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+        "gateway": "Android SIM Gateway",
+        "response": "HTTPConnectionPool(host='192.168.29.31', port=8080): Max retries exceeded with url: /send (Caused by ConnectTimeoutError(<HTTPConnection(host='192.168.29.31', port=8080) at 0x19cf4dc3770>, 'Connection to 192.168.29.31 timed out. (connect timeout=5)'))",
+        "timestamp": "2026-07-21T12:41:55.128701"
+      }
+    ],
+    "status": "SENT",
+    "timestamp": "2026-07-21T12:41:55.128775"
+  },
+  {
+    "id": "sos_1784607285123",
+    "patientId": "pat_alz_1784573614999",
+    "triggeredBy": "Deepa",
+    "latitude": 15.4683,
+    "longitude": 75.0039,
+    "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+    "recipients": [
+      "8310449411"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "message": "🚨 EMERGENCY SOS ALERT: Sharon Stewart requires immediate assistance!\n⏰ Time: 2026-07-21 09:44:40\n📍 GPS Coords: 15.4683, 75.0039\n🗺️ Live Location: https://www.google.com/maps?q=15.4683,75.0039",
+        "recipient": "8310449411",
+        "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+        "gateway": "Android SIM Gateway",
+        "response": "HTTPConnectionPool(host='192.168.29.31', port=8080): Max retries exceeded with url: /send (Caused by ConnectTimeoutError(<HTTPConnection(host='192.168.29.31', port=8080) at 0x152ff6ef770>, 'Connection to 192.168.29.31 timed out. (connect timeout=5)'))",
+        "timestamp": "2026-07-21T09:44:45.123115"
+      }
+    ],
+    "status": "SENT",
+    "timestamp": "2026-07-21T09:44:45.123162"
+  },
+  {
+    "id": "sos_1784553485771",
+    "patientId": "pat_alz_1784543343743",
+    "triggeredBy": "Alex",
+    "latitude": 15.4683,
+    "longitude": 75.0039,
+    "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+    "recipients": [
+      "8095189197"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "message": "🚨 EMERGENCY SOS ALERT: john requires immediate assistance!\n⏰ Time: 2026-07-20 18:48:03\n📍 GPS Coords: 15.4683, 75.0039\n🗺️ Live Location: https://www.google.com/maps?q=15.4683,75.0039",
+        "recipient": "8095189197",
+        "mapsLink": "https://www.google.com/maps?q=15.4683,75.0039",
+        "gateway": "Android SIM Gateway",
+        "response": "HTTPConnectionPool(host='192.168.29.31', port=8080): Max retries exceeded with url: /send (Caused by NewConnectionError(\"HTTPConnection(host='192.168.29.31', port=8080): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+        "timestamp": "2026-07-20T18:48:05.771911"
+      }
+    ],
+    "status": "SENT",
+    "timestamp": "2026-07-20T18:48:05.772013"
+  },
+  {
+    "id": "sos_1784544436039",
+    "patientId": "pat_alz_1784543343743",
+    "triggeredBy": "Alex",
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "mapsLink": "https://www.google.com/maps?q=37.7749,-122.4194",
+    "recipients": [
+      "8095189197"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "message": "🚨 EMERGENCY SOS ALERT: john requires immediate assistance!\n⏰ Time: 2026-07-20 16:17:16\n📍 GPS Coords: 37.7749, -122.4194\n🗺️ Live Location: https://www.google.com/maps?q=37.7749,-122.4194",
+        "recipient": "8095189197",
+        "mapsLink": "https://www.google.com/maps?q=37.7749,-122.4194"
+      }
+    ],
+    "status": "SENT",
+    "timestamp": "2026-07-20T16:17:16.039101"
+  },
+  {
+    "id": "sos_1784544310512",
+    "patientId": "pat_alz_1784543343743",
+    "triggeredBy": "Alex",
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "mapsLink": "https://www.google.com/maps?q=37.7749,-122.4194",
+    "recipients": [
+      "8095189197"
+    ],
+    "dispatches": [
+      {
+        "status": "SENT",
+        "message": "🚨 EMERGENCY SOS ALERT: john requires immediate assistance!\n⏰ Time: 2026-07-20 16:15:10\n📍 GPS Coords: 37.7749, -122.4194\n🗺️ Live Location: https://www.google.com/maps?q=37.7749,-122.4194",
+        "recipient": "8095189197",
+        "mapsLink": "https://www.google.com/maps?q=37.7749,-122.4194"
+      }
+    ],
+    "status": "SENT",
+    "timestamp": "2026-07-20T16:15:10.512154"
+  }
+]

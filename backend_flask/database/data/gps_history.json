@@ -1,0 +1,407 @@
+[
+  {
+    "id": "gps_1790621147444",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4688,
+    "longitude": 75.0042,
+    "address": "Home Safe Zone - Restored Baseline",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 64.2,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-29T00:15:47.444766"
+  },
+  {
+    "id": "gps_1790621146857",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.478,
+    "longitude": 75.012,
+    "address": "Dharwad Bypass - OUTSIDE SAFE ZONE (Task 15B Real Test)",
+    "isInSafeZone": false,
+    "distanceFromSafeZoneCenter": 1384.5,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-29T00:15:46.857233"
+  },
+  {
+    "id": "gps_1790621146848",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4688,
+    "longitude": 75.0042,
+    "address": "Home Safe Zone Baseline",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 64.2,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-29T00:15:46.848849"
+  },
+  {
+    "id": "gps_1790616517430",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4688,
+    "longitude": 75.0042,
+    "address": "Home Safe Zone Area - Restore After Controlled Test",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 64.2,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:58:37.430832"
+  },
+  {
+    "id": "gps_1790616507337",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.478,
+    "longitude": 75.012,
+    "address": "CONTROLLED REAL WANDERING SMS TEST",
+    "isInSafeZone": false,
+    "distanceFromSafeZoneCenter": 1384.5,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:58:27.337757"
+  },
+  {
+    "id": "gps_1790616488939",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4682882,
+    "longitude": 75.0038665,
+    "address": "Location (15.4683, 75.0039)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 3.8,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:58:08.939775"
+  },
+  {
+    "id": "gps_1790616469770",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.468294,
+    "longitude": 75.0038418,
+    "address": "Location (15.4683, 75.0038)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 6.3,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:57:49.770968"
+  },
+  {
+    "id": "gps_1790616446606",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.468294,
+    "longitude": 75.0038418,
+    "address": "Location (15.4683, 75.0038)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 6.3,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:57:26.606967"
+  },
+  {
+    "id": "gps_1790616249534",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4688,
+    "longitude": 75.0042,
+    "address": "Home Safe Zone Area (Normal Baseline State)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 64.2,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:54:09.534370"
+  },
+  {
+    "id": "gps_1790615524804",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4688,
+    "longitude": 75.0042,
+    "address": "Home Safe Zone Area (Restored Normal Phone State)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 64.2,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:42:04.804008"
+  },
+  {
+    "id": "gps_1790614422892",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.478,
+    "longitude": 75.012,
+    "address": "Dharwad Bypass Highway (Outside Safe Zone)",
+    "isInSafeZone": false,
+    "distanceFromSafeZoneCenter": 1384.5,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:23:42.892799"
+  },
+  {
+    "id": "gps_1790613872972",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4682341,
+    "longitude": 75.0037761,
+    "address": "Location (15.4682, 75.0038)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 15.2,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:14:32.972688"
+  },
+  {
+    "id": "gps_1790613851840",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4682676,
+    "longitude": 75.0037272,
+    "address": "Location (15.4683, 75.0037)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 18.9,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:14:11.840886"
+  },
+  {
+    "id": "gps_1790613832480",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4682708,
+    "longitude": 75.003743,
+    "address": "Location (15.4683, 75.0037)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 17.1,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:13:52.480852"
+  },
+  {
+    "id": "gps_1790613813653",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4683064,
+    "longitude": 75.0037958,
+    "address": "Location (15.4683, 75.0038)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 11.2,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:13:33.653086"
+  },
+  {
+    "id": "gps_1790613792787",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4682586,
+    "longitude": 75.003744,
+    "address": "Location (15.4683, 75.0037)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 17.3,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:13:12.787874"
+  },
+  {
+    "id": "gps_1790613501466",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4695,
+    "longitude": 75.005,
+    "address": "Dharwad Market Road",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 178.0,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:08:21.466306"
+  },
+  {
+    "id": "gps_1790613062787",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4683038,
+    "longitude": 75.0037042,
+    "address": "Location (15.4683, 75.0037)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 21.0,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:01:02.787974"
+  },
+  {
+    "id": "gps_1790613041376",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4682774,
+    "longitude": 75.0037467,
+    "address": "Location (15.4683, 75.0037)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 16.6,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:00:41.376199"
+  },
+  {
+    "id": "gps_1790613023652",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4683275,
+    "longitude": 75.0036974,
+    "address": "Location (15.4683, 75.0037)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 21.9,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:00:23.652737"
+  },
+  {
+    "id": "gps_1790613004073",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4682921,
+    "longitude": 75.0038494,
+    "address": "Location (15.4683, 75.0038)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 5.5,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T22:00:04.073203"
+  },
+  {
+    "id": "gps_1790612984324",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4682921,
+    "longitude": 75.0038494,
+    "address": "Location (15.4683, 75.0038)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 5.5,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T21:59:44.324440"
+  },
+  {
+    "id": "gps_1790612673917",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4688,
+    "longitude": 75.0042,
+    "address": "Location (15.4688, 75.0042)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 64.2,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T21:54:33.917923"
+  },
+  {
+    "id": "gps_1790608651746",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.49,
+    "longitude": 75.02,
+    "address": "Location (15.4900, 75.0200)",
+    "isInSafeZone": false,
+    "distanceFromSafeZoneCenter": 2966.3,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T20:47:31.746349"
+  },
+  {
+    "id": "gps_1790608651729",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4685,
+    "longitude": 75.004,
+    "address": "Location (15.4685, 75.0040)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 24.7,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T20:47:31.729843"
+  },
+  {
+    "id": "gps_1790607991918",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.49,
+    "longitude": 75.02,
+    "address": "Location (15.4900, 75.0200)",
+    "isInSafeZone": false,
+    "distanceFromSafeZoneCenter": 2966.3,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T20:36:31.918205"
+  },
+  {
+    "id": "gps_1790607991895",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4685,
+    "longitude": 75.004,
+    "address": "Location (15.4685, 75.0040)",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 24.7,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-28T20:36:31.895267"
+  }
+]

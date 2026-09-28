@@ -1,0 +1,101 @@
+{
+  "model_architecture": "EfficientNetB0",
+  "evaluation_dataset": "Held-out Test Partition (960 MRI scans)",
+  "total_test_samples": 960,
+  "overall_accuracy": 0.4667,
+  "macro_metrics": {
+    "precision": 0.3231,
+    "recall": 0.3045,
+    "f1_score": 0.2433,
+    "roc_auc": 0.5355
+  },
+  "weighted_metrics": {
+    "precision": 0.5868,
+    "recall": 0.4667,
+    "f1_score": 0.4026,
+    "roc_auc": 0.6418
+  },
+  "per_class_metrics": {
+    "MildDemented": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "specificity": 0.9939,
+      "roc_auc": 0.4096,
+      "support": 135
+    },
+    "ModerateDemented": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "specificity": 0.9926,
+      "roc_auc": 0.3816,
+      "support": 9
+    },
+    "NonDemented": {
+      "precision": 0.8958,
+      "recall": 0.2687,
+      "f1_score": 0.4135,
+      "specificity": 0.9688,
+      "roc_auc": 0.7193,
+      "support": 480
+    },
+    "VeryMildDemented": {
+      "precision": 0.3968,
+      "recall": 0.9494,
+      "f1_score": 0.5596,
+      "specificity": 0.2228,
+      "roc_auc": 0.6313,
+      "support": 336
+    }
+  },
+  "confusion_matrix_raw": [
+    [
+      0,
+      1,
+      0,
+      134
+    ],
+    [
+      0,
+      0,
+      0,
+      9
+    ],
+    [
+      3,
+      6,
+      129,
+      342
+    ],
+    [
+      2,
+      0,
+      15,
+      319
+    ]
+  ],
+  "model_footprint": {
+    "total_parameters": 4174848,
+    "pytorch_checkpoint_mb": 16.23,
+    "keras_package_mb": 0.02
+  },
+  "inference_benchmark": {
+    "device": "cpu",
+    "single_image_mean_ms": 51.54,
+    "single_image_std_ms": 8.54,
+    "p50_median_ms": 49.83,
+    "p95_tail_ms": 63.5,
+    "throughput_scans_per_sec": 19.4
+  },
+  "contamination_audit": {
+    "train_samples": 4480,
+    "val_samples": 960,
+    "test_samples": 960,
+    "train_val_overlap_count": 0,
+    "train_test_overlap_count": 0,
+    "val_test_overlap_count": 0,
+    "zero_cross_split_contamination": true
+  },
+  "timestamp": "2026-09-26 14:31:12"
+}

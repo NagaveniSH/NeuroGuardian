@@ -1,0 +1,17 @@
+{
+  "pat_alz_1790140707101": {
+    "id": "gps_1790621147444",
+    "patientId": "pat_alz_1790140707101",
+    "latitude": 15.4688,
+    "longitude": 75.0042,
+    "address": "Home Safe Zone - Restored Baseline",
+    "isInSafeZone": true,
+    "distanceFromSafeZoneCenter": 64.2,
+    "safeZoneCenter": {
+      "latitude": 15.4683,
+      "longitude": 75.0039
+    },
+    "safeZoneRadius": 500.0,
+    "timestamp": "2026-09-29T00:15:47.444766"
+  }
+}

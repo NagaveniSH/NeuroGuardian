@@ -1,0 +1,30 @@
+{
+  "project_name": "alzheimer_ai",
+  "model_type": "ImageClassifier",
+  "backbone": {
+    "name": "EfficientNetB0",
+    "pretrained": true,
+    "weights_source": "ImageNet (Transfer Learning)",
+    "feature_dim": 1280
+  },
+  "classifier_head": {
+    "layers": [
+      "BatchNorm1d(1280)",
+      "Dropout(0.30)",
+      "Linear(1280, 128)",
+      "ReLU()",
+      "BatchNorm1d(128)",
+      "Dropout(0.21)",
+      "Linear(128, 4)"
+    ],
+    "output_activation": "Softmax(dim=1)"
+  },
+  "num_classes": 4,
+  "artifacts": {
+    "pytorch_checkpoint": "models/best_alzheimer_efficientnetb0.pth",
+    "final_keras_model": "models/final_alzheimer_model.keras",
+    "class_names_config": "configs/class_names.json",
+    "preprocessing_config": "configs/preprocessing_config.json"
+  },
+  "disclaimer": "Research and educational prototype only. Not for clinical diagnosis."
+}

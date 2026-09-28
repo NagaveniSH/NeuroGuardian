@@ -1,0 +1,82 @@
+{
+  "alex@example.com": {
+    "uid": "usr_caregiver_1784543159648",
+    "email": "alex@example.com",
+    "displayName": "Alex",
+    "role": "caregiver",
+    "phoneNumber": "8095189197",
+    "address": "Springfield Health Zone",
+    "createdAt": "2026-07-20T15:55:59.648386",
+    "password": "alex123"
+  },
+  "admin@example.com": {
+    "uid": "usr_admin_1784547051336",
+    "email": "admin@example.com",
+    "displayName": "Admin",
+    "role": "admin",
+    "phoneNumber": "9876543210",
+    "address": "Springfield Health Zone",
+    "createdAt": "2026-07-20T17:00:51.336834",
+    "password": "admin123"
+  },
+  "john@example.com": {
+    "uid": "usr_caregiver_1784558139316",
+    "email": "john@example.com",
+    "displayName": "John",
+    "role": "caregiver",
+    "phoneNumber": "9876543210",
+    "address": "Springfield Health Zone",
+    "createdAt": "2026-07-20T20:05:39.316103",
+    "password": "john123"
+  },
+  "annpurna@neuroguardian.com": {
+    "uid": "usr_caregiver_1784563056016",
+    "email": "annpurna@neuroguardian.com",
+    "displayName": "Annpurna",
+    "role": "caregiver",
+    "phoneNumber": "8088103439",
+    "address": "Hubballi,Karnataka",
+    "createdAt": "2026-07-20T21:27:36.016543",
+    "password": "annpurna123"
+  },
+  "deepa@neuroguardian.com": {
+    "uid": "usr_caregiver_1784563163849",
+    "email": "deepa@neuroguardian.com",
+    "displayName": "Deepa",
+    "role": "caregiver",
+    "phoneNumber": "8310449411",
+    "address": "Haliyal,Karnataka ",
+    "createdAt": "2026-07-20T21:29:23.849285",
+    "password": "deepa123"
+  },
+  "nagaveni@neuroguardian.com": {
+    "uid": "usr_caregiver_1784563383014",
+    "email": "nagaveni@neuroguardian.com",
+    "displayName": "Nagaveni",
+    "role": "caregiver",
+    "phoneNumber": "9242714899",
+    "address": "Dharwad,Karnataka ",
+    "createdAt": "2026-07-20T21:33:03.014147",
+    "password": "nagaveni123"
+  },
+  "netravati@gmail.com": {
+    "uid": "usr_doctor_1784611517798",
+    "email": "netravati@gmail.com",
+    "displayName": "Dr. Sarah Smith (Neurologist)",
+    "role": "doctor",
+    "phoneNumber": "8095189197",
+    "address": "Hubballi,Karnataka",
+    "createdAt": "2026-07-21T10:55:17.798240",
+    "password": "netra123"
+  },
+  "sam@gmail.com": {
+    "uid": "usr_caregiver_1790140602169",
+    "email": "sam@gmail.com",
+    "displayName": "sam",
+    "role": "caregiver",
+    "phoneNumber": "8123811801",
+    "address": "dharwad",
+    "createdAt": "2026-09-23T10:46:42.169474",
+    "password": "sam123"
+  }
+}
